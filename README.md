@@ -38,7 +38,8 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 ```objc
-//初始化三级目录数 *menuLevel3 = [[TYGSelectMenu alloc] init];
+//初始化三级目录数  
+TYGSelectMenu *menuLevel3 = [[TYGSelectMenu alloc] init];
 for (int i = 0; i < 10; i++) {
     TYGSelectMenuEntity *menu1 = [[TYGSelectMenuEntity alloc] init];
     menu1.title = [NSString stringWithFormat:@"%d",i];
