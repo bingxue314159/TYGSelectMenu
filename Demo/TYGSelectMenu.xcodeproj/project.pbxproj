@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D1493E1B4CB56F0018811D /* TYGSelectMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D149381B4CB56F0018811D /* TYGSelectMenu.m */; };
+		08D1493F1B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1493A1B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.m */; };
+		08D149401B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D1493B1B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.xib */; };
+		08D149411B4CB56F0018811D /* TYGSelectMenuEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D1493D1B4CB56F0018811D /* TYGSelectMenuEntity.m */; };
+		08D7318A1B4A058D00366411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D731891B4A058D00366411 /* main.m */; };
+		08D7318D1B4A058D00366411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D7318C1B4A058D00366411 /* AppDelegate.m */; };
+		08D731901B4A058D00366411 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D7318F1B4A058D00366411 /* ViewController.m */; };
+		08D731931B4A058D00366411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D731911B4A058D00366411 /* Main.storyboard */; };
+		08D731951B4A058D00366411 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D731941B4A058D00366411 /* Images.xcassets */; };
+		08D731981B4A058D00366411 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08D731961B4A058D00366411 /* LaunchScreen.xib */; };
+		08D731A41B4A058E00366411 /* TYGSelectMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D731A31B4A058E00366411 /* TYGSelectMenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08D7319E1B4A058E00366411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08D7317C1B4A058D00366411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D731831B4A058D00366411;
+			remoteInfo = TYGSelectMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D149371B4CB56F0018811D /* TYGSelectMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGSelectMenu.h; sourceTree = "<group>"; };
+		08D149381B4CB56F0018811D /* TYGSelectMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGSelectMenu.m; sourceTree = "<group>"; };
+		08D149391B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGSelectMenuCellTableViewCell.h; sourceTree = "<group>"; };
+		08D1493A1B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGSelectMenuCellTableViewCell.m; sourceTree = "<group>"; };
+		08D1493B1B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYGSelectMenuCellTableViewCell.xib; sourceTree = "<group>"; };
+		08D1493C1B4CB56F0018811D /* TYGSelectMenuEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYGSelectMenuEntity.h; sourceTree = "<group>"; };
+		08D1493D1B4CB56F0018811D /* TYGSelectMenuEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYGSelectMenuEntity.m; sourceTree = "<group>"; };
+		08D731841B4A058D00366411 /* TYGSelectMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYGSelectMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D731881B4A058D00366411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D731891B4A058D00366411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08D7318B1B4A058D00366411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08D7318C1B4A058D00366411 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08D7318E1B4A058D00366411 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08D7318F1B4A058D00366411 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08D731921B4A058D00366411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08D731941B4A058D00366411 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08D731971B4A058D00366411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		08D7319D1B4A058E00366411 /* TYGSelectMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYGSelectMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D731A21B4A058E00366411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D731A31B4A058E00366411 /* TYGSelectMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYGSelectMenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D731811B4A058D00366411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D7319A1B4A058E00366411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D149361B4CB56F0018811D /* class */ = {
+			isa = PBXGroup;
+			children = (
+				08D149371B4CB56F0018811D /* TYGSelectMenu.h */,
+				08D149381B4CB56F0018811D /* TYGSelectMenu.m */,
+				08D149391B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.h */,
+				08D1493A1B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.m */,
+				08D1493B1B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.xib */,
+				08D1493C1B4CB56F0018811D /* TYGSelectMenuEntity.h */,
+				08D1493D1B4CB56F0018811D /* TYGSelectMenuEntity.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		08D7317B1B4A058D00366411 = {
+			isa = PBXGroup;
+			children = (
+				08D731861B4A058D00366411 /* TYGSelectMenu */,
+				08D731A01B4A058E00366411 /* TYGSelectMenuTests */,
+				08D731851B4A058D00366411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08D731851B4A058D00366411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08D731841B4A058D00366411 /* TYGSelectMenu.app */,
+				08D7319D1B4A058E00366411 /* TYGSelectMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08D731861B4A058D00366411 /* TYGSelectMenu */ = {
+			isa = PBXGroup;
+			children = (
+				08D7318B1B4A058D00366411 /* AppDelegate.h */,
+				08D7318C1B4A058D00366411 /* AppDelegate.m */,
+				08D7318E1B4A058D00366411 /* ViewController.h */,
+				08D7318F1B4A058D00366411 /* ViewController.m */,
+				08D731911B4A058D00366411 /* Main.storyboard */,
+				08D149361B4CB56F0018811D /* class */,
+				08D731941B4A058D00366411 /* Images.xcassets */,
+				08D731961B4A058D00366411 /* LaunchScreen.xib */,
+				08D731871B4A058D00366411 /* Supporting Files */,
+			);
+			path = TYGSelectMenu;
+			sourceTree = "<group>";
+		};
+		08D731871B4A058D00366411 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08D731881B4A058D00366411 /* Info.plist */,
+				08D731891B4A058D00366411 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08D731A01B4A058E00366411 /* TYGSelectMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				08D731A31B4A058E00366411 /* TYGSelectMenuTests.m */,
+				08D731A11B4A058E00366411 /* Supporting Files */,
+			);
+			path = TYGSelectMenuTests;
+			sourceTree = "<group>";
+		};
+		08D731A11B4A058E00366411 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08D731A21B4A058E00366411 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08D731831B4A058D00366411 /* TYGSelectMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D731A71B4A058E00366411 /* Build configuration list for PBXNativeTarget "TYGSelectMenu" */;
+			buildPhases = (
+				08D731801B4A058D00366411 /* Sources */,
+				08D731811B4A058D00366411 /* Frameworks */,
+				08D731821B4A058D00366411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYGSelectMenu;
+			productName = TYGSelectMenu;
+			productReference = 08D731841B4A058D00366411 /* TYGSelectMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08D7319C1B4A058E00366411 /* TYGSelectMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D731AA1B4A058E00366411 /* Build configuration list for PBXNativeTarget "TYGSelectMenuTests" */;
+			buildPhases = (
+				08D731991B4A058E00366411 /* Sources */,
+				08D7319A1B4A058E00366411 /* Frameworks */,
+				08D7319B1B4A058E00366411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D7319F1B4A058E00366411 /* PBXTargetDependency */,
+			);
+			name = TYGSelectMenuTests;
+			productName = TYGSelectMenuTests;
+			productReference = 08D7319D1B4A058E00366411 /* TYGSelectMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08D7317C1B4A058D00366411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = tanyugang;
+				TargetAttributes = {
+					08D731831B4A058D00366411 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					08D7319C1B4A058E00366411 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 08D731831B4A058D00366411;
+					};
+				};
+			};
+			buildConfigurationList = 08D7317F1B4A058D00366411 /* Build configuration list for PBXProject "TYGSelectMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08D7317B1B4A058D00366411;
+			productRefGroup = 08D731851B4A058D00366411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08D731831B4A058D00366411 /* TYGSelectMenu */,
+				08D7319C1B4A058E00366411 /* TYGSelectMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08D731821B4A058D00366411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D731931B4A058D00366411 /* Main.storyboard in Resources */,
+				08D731981B4A058D00366411 /* LaunchScreen.xib in Resources */,
+				08D731951B4A058D00366411 /* Images.xcassets in Resources */,
+				08D149401B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D7319B1B4A058E00366411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D731801B4A058D00366411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D731901B4A058D00366411 /* ViewController.m in Sources */,
+				08D7318D1B4A058D00366411 /* AppDelegate.m in Sources */,
+				08D1493F1B4CB56F0018811D /* TYGSelectMenuCellTableViewCell.m in Sources */,
+				08D7318A1B4A058D00366411 /* main.m in Sources */,
+				08D149411B4CB56F0018811D /* TYGSelectMenuEntity.m in Sources */,
+				08D1493E1B4CB56F0018811D /* TYGSelectMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D731991B4A058E00366411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D731A41B4A058E00366411 /* TYGSelectMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08D7319F1B4A058E00366411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D731831B4A058D00366411 /* TYGSelectMenu */;
+			targetProxy = 08D7319E1B4A058E00366411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08D731911B4A058D00366411 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08D731921B4A058D00366411 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08D731961B4A058D00366411 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08D731971B4A058D00366411 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08D731A51B4A058E00366411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08D731A61B4A058E00366411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08D731A81B4A058E00366411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYGSelectMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08D731A91B4A058E00366411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYGSelectMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08D731AB1B4A058E00366411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYGSelectMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYGSelectMenu.app/TYGSelectMenu";
+			};
+			name = Debug;
+		};
+		08D731AC1B4A058E00366411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TYGSelectMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYGSelectMenu.app/TYGSelectMenu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08D7317F1B4A058D00366411 /* Build configuration list for PBXProject "TYGSelectMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D731A51B4A058E00366411 /* Debug */,
+				08D731A61B4A058E00366411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D731A71B4A058E00366411 /* Build configuration list for PBXNativeTarget "TYGSelectMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D731A81B4A058E00366411 /* Debug */,
+				08D731A91B4A058E00366411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D731AA1B4A058E00366411 /* Build configuration list for PBXNativeTarget "TYGSelectMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D731AB1B4A058E00366411 /* Debug */,
+				08D731AC1B4A058E00366411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08D7317C1B4A058D00366411 /* Project object */;
+}
