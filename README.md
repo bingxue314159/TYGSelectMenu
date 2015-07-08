@@ -3,13 +3,6 @@
 快速的创建下拉多级菜单，无论多少级都可以！但目前只建议最多三级！
 
 ##截图
-表格
-  表头  | 表头
-  ————- | ————-
- 单元格内容  | 单元格内容
- 单元格内容l  | 单元格内容
-
-
 
 一级菜单  
 ![demo1](https://github.com/bingxue314159/TYGSelectMenu/raw/master/screen/1.png "一级菜单")  
