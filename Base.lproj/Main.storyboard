@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -46,28 +47,100 @@
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fhy-S9-0Ef"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ja-sF-wds">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.47013690120000001" green="1" blue="0.77774851769999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="8Ot-tS-WN0">
+                                        <variation key="widthClass=compact" constant="90"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="30" id="hEw-nO-pbp"/>
+                                </constraints>
+                                <state key="normal" title="select-2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="hEw-nO-pbp"/>
+                                        <exclude reference="8Ot-tS-WN0"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="hEw-nO-pbp"/>
+                                        <include reference="8Ot-tS-WN0"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dzz-z3-xP1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gE8-HE-N3N">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.47013690120000001" green="1" blue="0.77774851769999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="06j-4X-SUH">
+                                        <variation key="widthClass=compact" constant="90"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="30" id="b0x-NF-Pg4"/>
+                                </constraints>
+                                <state key="normal" title="select-3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="b0x-NF-Pg4"/>
+                                        <exclude reference="06j-4X-SUH"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="b0x-NF-Pg4"/>
+                                        <include reference="06j-4X-SUH"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wss-LA-wBl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="gE8-HE-N3N" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="QAA-G1-7HE"/>
                             <constraint firstItem="d3Y-bT-VAm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="VQU-lC-zls"/>
                             <constraint firstItem="d3Y-bT-VAm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aI2-xa-tvx"/>
+                            <constraint firstItem="2ja-sF-wds" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="d0Y-0m-7Zo"/>
+                            <constraint firstItem="2ja-sF-wds" firstAttribute="leading" secondItem="d3Y-bT-VAm" secondAttribute="trailing" constant="8" id="lz3-Ec-glO"/>
+                            <constraint firstItem="gE8-HE-N3N" firstAttribute="leading" secondItem="2ja-sF-wds" secondAttribute="trailing" constant="8" id="rPY-Fj-eLb"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="d3Y-bT-VAm"/>
+                                <exclude reference="2ja-sF-wds"/>
+                                <exclude reference="gE8-HE-N3N"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="VQU-lC-zls"/>
                                 <exclude reference="aI2-xa-tvx"/>
+                                <exclude reference="d0Y-0m-7Zo"/>
+                                <exclude reference="lz3-Ec-glO"/>
+                                <exclude reference="QAA-G1-7HE"/>
+                                <exclude reference="rPY-Fj-eLb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="d3Y-bT-VAm"/>
+                                <include reference="2ja-sF-wds"/>
+                                <include reference="gE8-HE-N3N"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="VQU-lC-zls"/>
                                 <include reference="aI2-xa-tvx"/>
+                                <include reference="d0Y-0m-7Zo"/>
+                                <include reference="lz3-Ec-glO"/>
+                                <include reference="QAA-G1-7HE"/>
+                                <include reference="rPY-Fj-eLb"/>
                             </mask>
                         </variation>
                     </view>
