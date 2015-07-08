@@ -18,7 +18,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9EC3EE9FBE35859ADD911691487F9F33C87C2DB2</key>
-		<string>../../..Demo/TYGSelectMenu/</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/bingxue314159/TYGSelectMenu.git</string>
