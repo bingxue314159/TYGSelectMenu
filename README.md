@@ -3,13 +3,9 @@
 快速的创建下拉多级菜单，无论多少级都可以！但目前只建议最多三级！
 
 ##截图
+ 
+![demo1](https://github.com/bingxue314159/TYGSelectMenu/raw/master/screen/TYGSelectMenu.gif "菜单")  
 
-一级菜单  
-![demo1](https://github.com/bingxue314159/TYGSelectMenu/raw/master/screen/1.png "一级菜单")  
-二级菜单  
-![demo2](https://github.com/bingxue314159/TYGSelectMenu/raw/master/screen/2.png "二级菜单")  
-三级菜单  
-![demo3](https://github.com/bingxue314159/TYGSelectMenu/raw/master/screen/3.png "三级菜单")  
 
 ##代码
 ###数据的初始化
