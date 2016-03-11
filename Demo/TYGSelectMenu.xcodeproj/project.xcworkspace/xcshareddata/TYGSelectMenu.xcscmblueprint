@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++2F7411C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++C579422" : 0,
+    "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++2F7411C" : 0,
+    "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++FB5EAF5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "83202BCD-06B2-4AF7-A0AB-3B95CE22DD8C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++C579422" : "TYGSelectMenu\/Demo\/TYGSelectMenu\/",
+    "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++2F7411C" : "TYGSelectMenu",
+    "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++FB5EAF5" : "TYGSelectMenu"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TYGSelectMenu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo\/TYGSelectMenu.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bingxue314159\/TYGSelectMenu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++2F7411C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bingxue314159\/TYGSelectMenu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++C579422"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bingxue314159\/TYGSelectMenu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9EC3EE9FBE35859ADD911691487F9F33C87C2DB2+++FB5EAF5"
+    }
+  ]
+}
