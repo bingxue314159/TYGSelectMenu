@@ -49,14 +49,20 @@
     if (nil == parentMenu) {
         //一级目录
         childMenu.level = 1;
-        childMenu.id = self.menuArray.count;
+        //childMenu.id = self.menuArray.count;
+        TYGSelectMenuEntity *lastMenu = [self.menuArray lastObject];
+        childMenu.id = (nil == lastMenu) ? 0 : (lastMenu.id + 1);
+        
         [self.menuArray addObject:childMenu];
     }
     else{
         
         childMenu.level = parentMenu.level + 1;
         childMenu.parentMenu = parentMenu;
-        childMenu.id = parentMenu.childMenuArray.count;
+        //childMenu.id = parentMenu.childMenuArray.count;//bug,删除目录再继续增加时，会出现id冲突
+
+        TYGSelectMenuEntity *lastMenu = [parentMenu.childMenuArray lastObject];
+        childMenu.id = (nil == lastMenu) ? 0 : (lastMenu.id + 1);
         
         [parentMenu.childMenuArray addObject:childMenu];
         

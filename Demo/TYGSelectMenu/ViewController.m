@@ -41,6 +41,7 @@
 
 - (void)loadMenu{
     
+    //一级目录
     menuLevel1 = [[TYGSelectMenu alloc] init];
     for (int i = 0; i < 10; i++) {
         TYGSelectMenuEntity *menu1 = [[TYGSelectMenuEntity alloc] init];
@@ -49,6 +50,7 @@
 
     }
     
+    //二级目录
     menuLevel2 = [[TYGSelectMenu alloc] init];
     for (int i = 0; i < 10; i++) {
         TYGSelectMenuEntity *menu1 = [[TYGSelectMenuEntity alloc] init];
@@ -63,6 +65,7 @@
         }
     }
     
+    //三级目录
     menuLevel3 = [[TYGSelectMenu alloc] init];
     for (int i = 0; i < 10; i++) {
         TYGSelectMenuEntity *menu1 = [[TYGSelectMenuEntity alloc] init];
@@ -85,66 +88,27 @@
 
 - (IBAction)buttonClick:(UIButton *)sender {
     
+    NSArray *menuArray = @[menuLevel1,menuLevel2,menuLevel3];
+    TYGSelectMenu *actionMenu = [menuArray objectAtIndex:sender.tag];
     
-    switch (sender.tag) {
-        case 0:{
-            //显示并隐藏其它
-            [menuLevel1 showFromView:sender];
-            [menuLevel2 disMiss];
-            [menuLevel3 disMiss];
-            
-            //block回调
-            [menuLevel1 selectAtMenu:^(NSMutableArray *selectedMenuArray) {
-                
-                NSMutableString *title = [NSMutableString string];
-                for (TYGSelectMenuEntity *tempMenu in selectedMenuArray) {
-                    [title appendString:[NSString stringWithFormat:@"%ld",(long)tempMenu.id]];
-                }
-                
-                [sender setTitle:title forState:UIControlStateNormal];
-            }];
-            break;
-        }
-        case 1:{
-            //显示
-            [menuLevel2 showFromView:sender];
-            [menuLevel1 disMiss];
-            [menuLevel3 disMiss];
-            
-            //block回调
-            [menuLevel2 selectAtMenu:^(NSMutableArray *selectedMenuArray) {
-                
-                NSMutableString *title = [NSMutableString string];
-                for (TYGSelectMenuEntity *tempMenu in selectedMenuArray) {
-                    [title appendString:[NSString stringWithFormat:@"%ld",(long)tempMenu.id]];
-                }
-                
-                [sender setTitle:title forState:UIControlStateNormal];
-            }];
-            break;
-        }
-        case 2:{
-            //显示
-            [menuLevel3 showFromView:sender];
-            [menuLevel1 disMiss];
-            [menuLevel2 disMiss];
-            
-            //block回调
-            [menuLevel3 selectAtMenu:^(NSMutableArray *selectedMenuArray) {
-                
-                NSMutableString *title = [NSMutableString string];
-                for (TYGSelectMenuEntity *tempMenu in selectedMenuArray) {
-                    [title appendString:[NSString stringWithFormat:@"%ld",(long)tempMenu.id]];
-                }
-                
-                [sender setTitle:title forState:UIControlStateNormal];
-            }];
-            break;
-        }
-        default:
-            break;
+    for (TYGSelectMenu *tempMenu in menuArray) {
+        //隐藏目录
+        [tempMenu disMiss];
     }
+    [actionMenu showFromView:sender];//显示目录
     
+    //block回调
+    [actionMenu selectAtMenu:^(NSMutableArray *selectedMenuArray) {
+        
+//        NSMutableString *title = [NSMutableString string];
+//        for (TYGSelectMenuEntity *tempMenu in selectedMenuArray) {
+//            [title appendString:[NSString stringWithFormat:@"%ld",(long)tempMenu.id]];
+//        }
+        
+        TYGSelectMenuEntity *lastMenu = [selectedMenuArray lastObject];
+        
+        [sender setTitle:lastMenu.title forState:UIControlStateNormal];
+    }];
     
 }
 

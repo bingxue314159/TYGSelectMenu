@@ -13,7 +13,7 @@
     void(^selectedMenu)(NSMutableArray *selectedMenuArray);
 }
 
-@property (nonatomic,assign) NSInteger id;
+//@property (nonatomic,assign) NSInteger id;
 @property (nonatomic,strong) NSMutableArray *menuArray;//目录树
 @property (nonatomic,strong) NSMutableArray *selectedMneuArray;//选中的目录
 
