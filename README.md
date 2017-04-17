@@ -1,14 +1,14 @@
 # TYGSelectMenu
-##功能说明
+## 功能说明
 快速的创建下拉多级菜单，无论多少级都可以！但目前只建议最多三级！
 
-##截图
+## 截图
  
 ![demo1](https://github.com/bingxue314159/TYGSelectMenu/raw/master/screen/TYGSelectMenu.gif "菜单")  
 
 
-##代码
-###数据的初始化
+## 代码
+### 数据的初始化
 ```objc
 //初始化一级目录数据
 TYGSelectMenu *menuLevel1 = [[TYGSelectMenu alloc] init];
@@ -52,7 +52,7 @@ for (int i = 0; i < 10; i++) {
     }
 }
 ```
-###显示及回调
+### 显示及回调
 ```objc
 //显示并隐藏其它
 [menuLevel1 showFromView:sender];
@@ -67,6 +67,6 @@ for (int i = 0; i < 10; i++) {
     [sender setTitle:title forState:UIControlStateNormal];
 }];
 ```
-##问题反馈
+## 问题反馈
 如果你在使用过程中发现了BUG，你可以这样联系到我：  
 Email:bingxue314159#163.com(把#换成@)
